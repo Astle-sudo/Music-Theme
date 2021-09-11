@@ -1,0 +1,83 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#button1 {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#button2 {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#button3 {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    line-height: 50px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+#button1:hover {
+    top: 49%;
+    left: 49%;
+    box-shadow: 5px 5px 2px rgb(37, 37, 37);
+}
+
+#button2:hover {
+    top: 49%;
+    left: 29%;
+    box-shadow: 5px 5px 2px rgb(37, 37, 37);
+}
+
+#button3:hover {
+    top: 49%;
+    left: 69%;
+    box-shadow: 5px 5px 2px rgb(37, 37, 37);
+}
